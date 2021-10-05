@@ -1,0 +1,23 @@
+/*CSS Demo Stylesheet*/
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*--------------------Global Styles---------------------*/
+body{
+    background-color:#C2B2A3;
+    font-family: 'Montserrat', sans-serif;
+}
+header.primary{
+    background-color:#8E7B6C;
+    text-align:center;
+    color:#FFFFFF;
+}
