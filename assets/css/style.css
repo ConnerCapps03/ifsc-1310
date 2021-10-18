@@ -1,3 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
     background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+body ul a{
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#574A3A;
+    background-color:rgba(87, 74, 58, .5);
+    padding:8px 16px;
+    border-radius:10px;
+    transition:.5s;
+}
+body ul li{
+    list-style-type:none;
+}
+body ul a:hover{
+    background-color:rgba(87, 74, 58, .9);
+
+}
+body h1{
+    
 }
