@@ -29,6 +29,7 @@ body ul a{
 }
 body ul li{
     list-style-type:none;
+    margin:10px;
 }
 body ul a:hover{
     background-color:rgba(87, 74, 58, .9);
